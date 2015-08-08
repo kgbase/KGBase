@@ -1,0 +1,18 @@
+<?php include('copyright'); ?>
+</td>
+<td width="30%" valign="top">
+<font color="#30421F" size="4" font="arial"><p align="justify">Вы можете зайти в систему как:</p>
+<p align="justify"><a href="editor/index.php">Редактор данных</a></p>
+<p align="justify"><a href="public/index.php">Пользователь</a></p>
+<p align="center">
+<?php print('<form enctype="multipart/form-data" action="logoff.php" method="post">
+        <input name="usroff" type="hidden" value="'.$_SESSION['username'].'" />
+        <input type="submit" name="submit" value="Выйти" /></form>
+        </p>'); ?>
+</p>
+</font>
+</td>
+</tr>
+</table>
+</body>
+</html>

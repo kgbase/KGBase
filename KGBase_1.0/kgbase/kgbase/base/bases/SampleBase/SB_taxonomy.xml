@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tree><family>
+<subtaxons>
+<species>
+<sp.>
+<subtaxons>
+</subtaxons><name>Aus beus</name><autor>Linnaeus, 1758</autor></sp.><sp.>
+<subtaxons>
+</subtaxons><name>Ceus deus</name><autor>Linnaeus, 1759</autor></sp.><pseudonym>вид</pseudonym><rank>sp.</rank></species></subtaxons><name>Adae</name><autor>Linnaeus, 2000</autor></family><pseudonym>семейство</pseudonym><rank>family</rank><author>Smith J.</author><description>Some desctiption</description><name>SB</name><content>
+<ID>Порядковый номер таксона</ID><name>Научное название таксона</name><original>Оригинальное научное название таксона (по описанию)</original><autor>Автор научного названия (полностью - Ivanon, 2000)</autor><aut_abbr>Автор научного названия (сокращение - Iv.)</aut_abbr><pseudonym>Национальное (народное) название таксона</pseudonym><description>Произвольное описание таксона</description><frequency>Частота встречаемости таксона</frequency><inhabit>Характер обитания таксона (постоянно, пролетный и т.п.)</inhabit><distribution>Распространение таксона</distribution><phenology>Фенология таксона</phenology><ecology>Экологические особенности таксона</ecology><biology>Биологические особенности таксона</biology><synonym>
+<name>Полное написание синонимичного названия (Herba vulgaris)</name><abbreviation>Сокращенное написание синонимичного названия (H. vulgaris, vulgaris)</abbreviation><autor>Автор синонимичного названия (полностью - Ivanon, 2000)</autor><aut_abbr>Автор синонимичного научного названия (сокращение - Iv.)</aut_abbr><synonymy>Автор синонимии (библиографическая ссылка - Сидорович, 2005)</synonymy></synonym></content><ranks>
+<rank>
+<taxons></taxons><taxon>family</taxon><pseudonym>семейство</pseudonym></rank><rank>
+<taxons>species</taxons><taxon>sp.</taxon><pseudonym>вид</pseudonym></rank></ranks></tree>

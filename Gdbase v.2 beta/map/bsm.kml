@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml><GroundOverlay><name>bsm.jpg</name><color>88ffffff</color><Icon>
+<href>bsm.jpg</href>
+<viewBoundScale>0.75</viewBoundScale></Icon><LatLonBox>
+<north>48.3316042807083</north>
+<south>48.0174870184785</south>
+<east>47.0736694335937</east>
+<west>46.724853515625</west>
+</LatLonBox></GroundOverlay></kml>

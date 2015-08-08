@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<collections>
+  <collection>
+    <name>BBZ</name>
+    <description>Коллеция научного отдела Богдинско-Баскунчакского заповедника</description>
+    <owner>ФГБУ "Государственный заповедник "Богдинско-Баскунчакский"</owner>
+    <curator>Гребенников Константин Алеексеевич, зам. дир. по НИР</curator>
+    <contact>kgrebennikov@gmail.com</contact>
+  </collection>
+  <collection>
+    <name>KGC</name>
+    <description>Частная коллекция К.А. Гребенникова</description>
+    <owner>Гребенников Константин Алеексеевич</owner>
+    <curator>Гребенников Константин Алеексеевич</curator>
+    <contact>kgrebennikov@gmail.com</contact>
+  </collection>
+</collections>

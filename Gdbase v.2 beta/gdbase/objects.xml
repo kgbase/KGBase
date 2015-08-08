@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tree>
+  <object>
+    <name>Lepidoptera</name>
+  </object>
+  <object>
+    <name>Achillea micrantha</name>
+  </object>
+  <object>
+    <name>Astragalus longipetalus</name>
+  </object>
+  <object>
+    <name>Senecio vernalis</name>
+  </object>
+  <object>
+    <name>Astragalus</name>
+  </object>
+  <object>
+    <name>Malus domestica</name>
+  </object>
+  <object>
+    <name>Salix caspica</name>
+  </object>
+  <object>
+    <name>Aradidae</name>
+  </object>
+  <object>
+    <name>Stipa pennata</name>
+  </object>
+  <object>
+    <name>Calligonum aphyllum</name>
+  </object>
+  <object>
+    <name>Rhamnus cathartica</name>
+  </object>
+  <object>
+    <name>Verbascum phoeniceum</name>
+  </object>
+  <object>
+    <name>Astragalus vulpinus</name>
+  </object>
+  <object>
+    <name>Asparagus inderiensis</name>
+  </object>
+  <object>
+    <name>Tamarix laxa</name>
+  </object>
+  <object>
+    <name>Scarabaeus typhon</name>
+  </object>
+  <object>
+    <name>Meles meles</name>
+  </object>
+  <object>
+    <name>Saiga tatarica</name>
+  </object>
+  <object>
+    <name>Rheum tataricum</name>
+  </object>
+  <object>
+    <name>Euphorbia undulata</name>
+  </object>
+  <object>
+    <name>Delphinium puniceum</name>
+  </object>
+  <object>
+    <name>Poa crispa</name>
+  </object>
+  <object>
+    <name>Silene viscosa</name>
+  </object>
+  <object>
+    <name>Dorcadion carinatum</name>
+  </object>
+  <object>
+    <name>Alsophylax pipiens</name>
+  </object>
+  <object>
+    <name>Achillea taurica</name>
+  </object>
+  <object>
+    <name>Anabasis salsa</name>
+  </object>
+  <object>
+    <name>Rindera tetraspis</name>
+  </object>
+  <object>
+    <name>Atraphaxis replicata</name>
+  </object>
+  <object>
+    <name>Scorzonera tuberosa</name>
+  </object>
+  <object>
+    <name>Allium tulipfolium</name>
+  </object>
+  <object>
+    <name>Astragalus ucrainicus</name>
+  </object>
+  <object>
+    <name>Lepus europaeus</name>
+  </object>
+  <object>
+    <name>Canis lupus</name>
+  </object>
+  <object>
+    <name>Aphodius planus</name>
+  </object>
+  <object>
+    <name>Lasiostola plustschevskyi</name>
+  </object>
+  <object>
+    <name>Messor denticulatus</name>
+  </object>
+  <object>
+    <name>Opatrum sabulosum</name>
+  </object>
+  <object>
+    <name>Tulipa gesneriana</name>
+  </object>
+  <object>
+    <name>Gagea bulbifera</name>
+  </object>
+  <object>
+    <name>Tulipa biflora</name>
+  </object>
+  <object>
+    <name>Tulipa biebersteiniana</name>
+  </object>
+  <object>
+    <name>Tragopogon marginifolius</name>
+  </object>
+  <object>
+    <name>Mesobuthus eupeus</name>
+  </object>
+  <object>
+    <name>Plagiolepis taurica</name>
+  </object>
+  <object>
+    <name>Ranunculus polyrhizos</name>
+  </object>
+  <object>
+    <name>Astragalus rupifragus</name>
+  </object>
+  <object>
+    <name>Sterigmostemum tomentosum</name>
+  </object>
+  <object>
+    <name>Thesium arvense</name>
+  </object>
+  <object>
+    <name>Camphorosma monspeliaca</name>
+  </object>
+  <object>
+    <name>Tripolium pannonicum</name>
+  </object>
+  <object>
+    <name>Rosa rubiginosa</name>
+  </object>
+  <object>
+    <name>Linaria vulgaris</name>
+  </object>
+  <object>
+    <name>Astragalus brachylobus</name>
+  </object>
+  <object>
+    <name>Galatella villosa</name>
+  </object>
+  <object>
+    <name>Dianthus borbasii</name>
+  </object>
+  <object>
+    <name>Vulpes vulpes</name>
+  </object>
+  <object>
+    <name>Kochia prostrata</name>
+  </object>
+  <object>
+    <name>Alyssum turkestanicum</name>
+  </object>
+  <object>
+    <name>Ephedra distachya</name>
+  </object>
+  <object>
+    <name>Meloe cicatricosus</name>
+  </object>
+  <object>
+    <name>Glycyrrhiza glabra</name>
+  </object>
+  <object>
+    <name>Phragmites australis</name>
+  </object>
+  <object>
+    <name>Gagea pusilla</name>
+  </object>
+  <object>
+    <name>Tentyria nomas</name>
+  </object>
+  <object>
+    <name>Phlomoides tuberosa</name>
+  </object>
+  <object>
+    <name>Cataglyphis aenescens</name>
+  </object>
+  <object>
+    <name>Messor sp.</name>
+  </object>
+  <object>
+    <name>Dytiscus circumflexus</name>
+  </object>
+  <object>
+    <name>Descurainia sophia</name>
+  </object>
+  <object>
+    <name>Lamium paczoskianum</name>
+  </object>
+  <object>
+    <name>Cicindela campestris</name>
+  </object>
+  <object>
+    <name>Androsace maxima</name>
+  </object>
+  <object>
+    <name>Ribes aureum</name>
+  </object>
+  <object>
+    <name>Acer negundo</name>
+  </object>
+  <object>
+    <name>Salvia tesquicola</name>
+  </object>
+  <object>
+    <name>Erysimum leucanthemum</name>
+  </object>
+  <object>
+    <name>Pygopleurus vulpes</name>
+  </object>
+  <object>
+    <name>Camponotus fedtschenkoi</name>
+  </object>
+  <object>
+    <name>Euphorbia praecox</name>
+  </object>
+  <object>
+    <name>Leptaleum filifolium</name>
+  </object>
+  <object>
+    <name>Crataegus ambigua</name>
+  </object>
+  <object>
+    <name>Prunus spinosa</name>
+  </object>
+  <object>
+    <name>Goniolimon rubellum</name>
+  </object>
+  <object>
+    <name>Geranium linearilobum</name>
+  </object>
+  <object>
+    <name>Takhtajaniantha pusilla</name>
+  </object>
+  <object>
+    <name>Strigosella stenopetala</name>
+  </object>
+  <object>
+    <name>Lepidium perfoliatum</name>
+  </object>
+  <object>
+    <name>Птицы (жаворонок)</name>
+  </object>
+  <object>
+    <name>Veronica multifida</name>
+  </object>
+  <object>
+    <name>Populus nigra</name>
+  </object>
+  <object>
+    <name>Lonicera tatarica</name>
+  </object>
+  <object>
+    <name>Leonurus glaucescens</name>
+  </object>
+  <object>
+    <name>Melandrium album</name>
+  </object>
+  <object>
+    <name>Vanessa cardui</name>
+  </object>
+  <object>
+    <name>Trinia hispida</name>
+  </object>
+  <object>
+    <name>Phlomis pungens</name>
+  </object>
+  <object>
+    <name>Echinops ruthenicus</name>
+  </object>
+  <object>
+    <name>Valeriana tuberosa</name>
+  </object>
+  <object>
+    <name>Serratula cardunculus</name>
+  </object>
+  <object>
+    <name>Aradus hieroglyphicus</name>
+  </object>
+  <object>
+    <name>Nyctalus noctula</name>
+  </object>
+  <object>
+    <name>Pentodon bidens</name>
+  </object>
+  <object>
+    <name>Pelobates fuscus</name>
+  </object>
+  <object>
+    <name>Gypsophila paniculata</name>
+  </object>
+  <object>
+    <name>Ranunculus oxyspermus</name>
+  </object>
+  <object>
+    <name>Astragalus testiculatus</name>
+  </object>
+  <object>
+    <name>Artemisia pauciflora</name>
+  </object>
+  <object>
+    <name>Allium inderiense</name>
+  </object>
+  <object>
+    <name>Serratula erucifolia</name>
+  </object>
+  <object>
+    <name>Astragalus varius</name>
+  </object>
+  <object>
+    <name>Thymus kirgisorum</name>
+  </object>
+  <object>
+    <name>Euphorbia seguieriana</name>
+  </object>
+  <object>
+    <name>Elaeosticta lutea</name>
+  </object>
+  <object>
+    <name>Linaria macroura</name>
+  </object>
+  <object>
+    <name>Stipa lessingiana</name>
+  </object>
+  <object>
+    <name>Птицы (каменка)</name>
+  </object>
+  <object>
+    <name>Lagoseris macrantha</name>
+  </object>
+  <object>
+    <name>Astragalus pseudotataricus</name>
+  </object>
+  <object>
+    <name>Meniocus linifolius</name>
+  </object>
+  <object>
+    <name>Potentilla recta</name>
+  </object>
+  <object>
+    <name>Helichrysum arenarium</name>
+  </object>
+  <object>
+    <name>Bromus squarrosus</name>
+  </object>
+  <object>
+    <name>Hypecoum pendulum</name>
+  </object>
+  <object>
+    <name>Carduus crispus</name>
+  </object>
+  <object>
+    <name>Adonis parviflora</name>
+  </object>
+  <object>
+    <name>Fumaria parviflora</name>
+  </object>
+  <object>
+    <name>Arabidopsis toxophylla</name>
+  </object>
+  <object>
+    <name>Myosurus minimus</name>
+  </object>
+  <object>
+    <name>Rorippa brachycarpa</name>
+  </object>
+  <object>
+    <name>Pastinaca clausii</name>
+  </object>
+  <object>
+    <name>Acroptilon repens</name>
+  </object>
+  <object>
+    <name>Nepeta ucranica</name>
+  </object>
+  <object>
+    <name>Anabasis aphylla</name>
+  </object>
+  <object>
+    <name>Astragalus physodes</name>
+  </object>
+  <object>
+    <name>Atriplex cana</name>
+  </object>
+  <object>
+    <name>Stipa sareptana</name>
+  </object>
+  <object>
+    <name>Prangos odontalgica</name>
+  </object>
+  <object>
+    <name>Tanacetum achilleifolium</name>
+  </object>
+  <object>
+    <name>Dodartia orientalis</name>
+  </object>
+  <object>
+    <name>Suaeda physophora</name>
+  </object>
+  <object>
+    <name>Galeodes araneoides</name>
+  </object>
+  <object>
+    <name>Alhagi pseudalhagi</name>
+  </object>
+  <object>
+    <name>Diorhabda persica</name>
+  </object>
+  <object>
+    <name>Solanum kitagawae</name>
+  </object>
+  <object>
+    <name>Thalictrum minus</name>
+  </object>
+  <object>
+    <name>Pyrus communis</name>
+  </object>
+  <object>
+    <name>Ceratocarpus arenarius</name>
+  </object>
+  <object>
+    <name>Tragopogon major</name>
+  </object>
+  <object>
+    <name>Silene wolgensis</name>
+  </object>
+  <object>
+    <name>Convolvulus arvensis</name>
+  </object>
+  <object>
+    <name>Lactuca tatarica</name>
+  </object>
+  <object>
+    <name>Potentilla orientalis</name>
+  </object>
+  <object>
+    <name>Galium ruthenicum</name>
+  </object>
+  <object>
+    <name>Falcaria vulgaris</name>
+  </object>
+  <object>
+    <name>Stipa capillata</name>
+  </object>
+  <object>
+    <name>Saga pedo</name>
+  </object>
+  <object>
+    <name>Onopordum acanthium</name>
+  </object>
+  <object>
+    <name>Krascheninnikovia ceratoides</name>
+  </object>
+  <object>
+    <name>Centaurea apiculata</name>
+  </object>
+  <object>
+    <name>Rosa canina</name>
+  </object>
+  <object>
+    <name>Elaeagnus angustifolia</name>
+  </object>
+  <object>
+    <name>Artemisia absinthium</name>
+  </object>
+  <object>
+    <name>Galium spurium</name>
+  </object>
+  <object>
+    <name>Jurinea ewersmannii</name>
+  </object>
+  <object>
+    <name>Artemisia marschalliana</name>
+  </object>
+  <object>
+    <name>Potentilla argentea</name>
+  </object>
+  <object>
+    <name>Amorpha fruticosa</name>
+  </object>
+  <object>
+    <name>Jurinea polyclonos</name>
+  </object>
+  <object>
+    <name>Silene media</name>
+  </object>
+  <object>
+    <name>Scorzonera ensifolia</name>
+  </object>
+  <object>
+    <name>Ulmus minor</name>
+  </object>
+  <object>
+    <name>Syrenia montana</name>
+  </object>
+  <object>
+    <name>Equisetum ramosissimum</name>
+  </object>
+  <object>
+    <name>Nepeta cataria</name>
+  </object>
+  <object>
+    <name>Centaurea wolgensis</name>
+  </object>
+  <object>
+    <name>Cynanchum acutum</name>
+  </object>
+  <object>
+    <name>Artemisia arenaria</name>
+  </object>
+  <object>
+    <name>Bolivaria brachyptera</name>
+  </object>
+  <object>
+    <name>Dianthus leptopetalus</name>
+  </object>
+  <object>
+    <name>Koeleria sabuletorum</name>
+  </object>
+  <object>
+    <name>Galatella tatarica</name>
+  </object>
+  <object>
+    <name>Chenopodium album</name>
+  </object>
+  <object>
+    <name>Papilio machaon</name>
+  </object>
+  <object>
+    <name>Achillea ?nobilis</name>
+  </object>
+  <object>
+    <name>Tamarix ramosissima</name>
+  </object>
+  <object>
+    <name>Xeranthemum annuum</name>
+  </object>
+  <object>
+    <name>Carduus uncinatus</name>
+  </object>
+  <object>
+    <name>Leymus racemosus</name>
+  </object>
+  <object>
+    <name>Secale sylvestre</name>
+  </object>
+  <object>
+    <name>Chondrilla canescens</name>
+  </object>
+  <object>
+    <name>Cerocoma schreberi</name>
+  </object>
+  <object>
+    <name>Amaranthus albus</name>
+  </object>
+  <object>
+    <name>Cannabis ruderalis</name>
+  </object>
+  <object>
+    <name>Oxythyrea funesta</name>
+  </object>
+  <object>
+    <name>Artemisia abrotanum</name>
+  </object>
+  <object>
+    <name>Lythrum salicaria</name>
+  </object>
+  <object>
+    <name>Inula britannica</name>
+  </object>
+  <object>
+    <name>Elytrigia repens</name>
+  </object>
+  <object>
+    <name>Medicago falcata</name>
+  </object>
+  <object>
+    <name>Rumex crispus</name>
+  </object>
+  <object>
+    <name>Climacoptera brachiata</name>
+  </object>
+  <object>
+    <name>Lepidium latifolium</name>
+  </object>
+  <object>
+    <name>Artemisia dracunculus</name>
+  </object>
+  <object>
+    <name>Elaphe sauromates</name>
+  </object>
+  <object>
+    <name>Eremias arguta</name>
+  </object>
+  <object>
+    <name>Polygonum novoascanicum</name>
+  </object>
+  <object>
+    <name>Limonium sareptanum</name>
+  </object>
+  <object>
+    <name>Sisymbrium polymorphum</name>
+  </object>
+  <object>
+    <name>Consolida regalis</name>
+  </object>
+  <object>
+    <name>Chondrilla graminea</name>
+  </object>
+  <object>
+    <name>Allium inaequale</name>
+  </object>
+  <object>
+    <name>Galium humifusum</name>
+  </object>
+  <object>
+    <name>Climacoptera crassa</name>
+  </object>
+  <object>
+    <name>Halocnemum strobilaceum</name>
+  </object>
+  <object>
+    <name>Limonium caspium</name>
+  </object>
+  <object>
+    <name>Halimione verrucifera</name>
+  </object>
+  <object>
+    <name>Frankenia hirsuta</name>
+  </object>
+  <object>
+    <name>Rhynocoris iracundus</name>
+  </object>
+  <object>
+    <name>Trachomitum sarmatiense</name>
+  </object>
+  <object>
+    <name>Limonium suffruticosum</name>
+  </object>
+  <object>
+    <name>Galatella biflora</name>
+  </object>
+  <object>
+    <name>Lactuca serriola</name>
+  </object>
+  <object>
+    <name>Populus alba</name>
+  </object>
+  <object>
+    <name>Птицы (воробьинообразные)</name>
+  </object>
+  <object>
+    <name>Juncus gerardii</name>
+  </object>
+  <object>
+    <name>Eremopyrum orientale</name>
+  </object>
+  <object>
+    <name>Bassia sedoides</name>
+  </object>
+  <object>
+    <name>Artemisia austriaca</name>
+  </object>
+  <object>
+    <name>Fraxinus pennsylvanica</name>
+  </object>
+  <object>
+    <name>Ulmus pumila</name>
+  </object>
+  <object>
+    <name>Quercus robur</name>
+  </object>
+  <object>
+    <name>Pinus nigra subsp. pallasiana</name>
+  </object>
+  <object>
+    <name>Suaeda prostrata</name>
+  </object>
+  <object>
+    <name>Atriplex tatarica</name>
+  </object>
+  <object>
+    <name>Limonium tomentellum</name>
+  </object>
+<object>
+<name>Conyza canadensis</name></object><object>
+<name>Halimodendron halodendron</name></object><object>
+<name>Frankenia pulverulenta</name></object><object>
+<name>Eptesicus serotinus</name></object><object>
+<name>Scolopendra canidens</name></object><object>
+<name>Calamagrostis epigeios</name></object><object>
+<name>Salsola paulsenii</name></object><object>
+<name>Птицы (кулики)</name></object><object>
+<name>Lygaeus equestris</name></object><object>
+<name>Птицы (соколообразные)</name></object><object>
+<name>Artemisia lerchiana</name></object><object>
+<name>Bombiliidae ?gen.sp.</name></object><object>
+<name>Rubus caesius</name></object><object>
+<name>Salsola arbuscula</name></object><object>
+<name>Ofaiston monandrum</name></object><object>
+<name>Salicornia perennans</name></object><object>
+<name>Suaeda acuminata</name></object><object>
+<name>Artemisia santonica</name></object><object>
+<name>Asparagus persicus</name></object><object>
+<name>Salsola laricina</name></object><object>
+<name>Ranatra linearis</name></object><object>
+<name>Artemia salina</name></object><object>
+<name>Salsola australis</name></object><object>
+<name>Achillea nobilis</name></object><object>
+<name>Гора Богдо</name></object><object>
+<name>Buteo rufinus</name></object></tree>

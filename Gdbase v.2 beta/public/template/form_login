@@ -1,0 +1,17 @@
+<?php include('copyright'); ?>
+</td>
+<td width="23%" valign="top">
+<font color="#30421F" size="4" font="arial">
+<form enctype="multipart/form-data" action="../index.php" method="post">
+    Ваш логин:<br>
+    <input name="usr" type="text" size="20" /><br>
+    Ваш пароль:<br>
+    <input name="pass" type="password" size="20" /><br>
+    <input type="submit" name="submit" value="Войти" /><br>
+</form>
+</font>
+</td>
+</tr>
+</table>
+</body>
+</html>

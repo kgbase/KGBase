@@ -1,0 +1,17 @@
+GDBase versions:
+
+Версия 2 (текущая)
+Новые возможности:
+- Авторизация пользователей
+- Резервное копирование (восстановление) данных, индексирование загруженных данных и обработка сообщений от редакторов в интерфейсе администратора.
+- Автоматическое генерирование статических карт.
+Исправлено большое число ошибок и недоработок.
+
+
+Version 0.1(1) Spartan alpha
+features:
+- No js, no SQL, no noSQL :) - PHP, XML and HTML only;
+- Only Russian interface;
+- No authorization module;
+- No documentation;
+- A lot of bugs, probably :).

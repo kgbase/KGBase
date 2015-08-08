@@ -1,0 +1,56 @@
+OziExplorer Map Data File Version 2.2
+Created by SAS.Planet
+bsm.jpg
+1 ,Map Code,
+WGS 84,,   0.0000,   0.0000,WGS 84
+Reserved 1
+Reserved 2
+Magnetic Variation,,,E
+Map Projection,Mercator,PolyCal,No,AutoCalOnly,No,BSBUseWPX,No
+Point01,xy,    0, 0,in, deg, 48, 19.8962568424992,N, 46, 43.4912109375,E, grid,   ,           ,           ,N
+Point02,xy,    254, 343,in, deg, 48, 1.0492211087103,N, 47, 4.420166015625,E, grid,   ,           ,           ,N
+Point03,xy,    0, 343,in, deg, 48, 1.0492211087103,N, 46, 43.4912109375,E, grid,   ,           ,           ,N
+Point04,xy,    254, 0,in, deg, 48, 19.8962568424992,N, 47, 4.420166015625,E, grid,   ,           ,           ,N
+Point05,xy,    127, 171,in, deg, 48, 10.4596977851953,N, 46, 53.9556884765625,E, grid,   ,           ,           ,N
+Point06,xy,    127, 0,in, deg, 48, 19.8962568424992,N, 46, 53.9556884765625,E, grid,   ,           ,           ,N
+Point07,xy,    0, 171,in, deg, 48, 10.4596977851953,N, 46, 43.4912109375,E, grid,   ,           ,           ,N
+Point08,xy,    254, 171,in, deg, 48, 10.4596977851953,N, 47, 4.420166015625,E, grid,   ,           ,           ,N
+Point09,xy,    127, 343,in, deg, 48, 1.0492211087103,N, 46, 53.9556884765625,E, grid,   ,           ,           ,N
+Point10,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point11,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point12,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point13,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point14,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point15,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point16,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point17,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point18,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point19,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point20,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point21,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point22,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point23,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point24,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point25,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point26,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point27,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point28,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point29,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Point30,xy,     ,     ,in, deg,    ,        ,N,    ,        ,W, grid,   ,           ,           ,N
+Projection Setup,,,,,,,,,,
+Map Feature = MF ; Map Comment = MC     These follow if they exist
+Track File = TF      These follow if they exist
+Moving Map Parameters = MM?    These follow if they exist
+MM0,Yes
+MMPNUM,4
+MMPXY,1,0,0
+MMPXY,2,254,0
+MMPXY,3,254,343
+MMPXY,4,0,343
+MMPLL,1, 46.724853515625, 48.3316042807083
+MMPLL,2, 47.0736694335937, 48.3316042807083
+MMPLL,3, 47.0736694335937, 48.0174870184785
+MMPLL,4, 46.724853515625, 48.0174870184785
+MM1B,101.94657453213
+MOP,Map Open Position,0,0
+IWH,Map Image Width/Height,254,343

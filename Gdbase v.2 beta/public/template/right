@@ -1,0 +1,23 @@
+<?php include('copyright'); ?>
+</td>
+<td width="27%" valign="top">
+<font color="#30421F" size="4" font="arial">
+<p><a href="objs_list.php">Статистика объектов</a></p>
+<p><a href="tax_print.php">Отчеты (таксономические списки)</a></p>
+<p><a href="index.php">Краткая инструкция</a></p>
+<p><a href="../index.php">Главная страница</a></p>
+<p align="center">
+<?php
+ print('<form enctype="multipart/form-data" action="../logoff.php" method="post">
+        <input name="usroff" type="hidden" value="'.$_SESSION['username'].'" />
+        <input type="submit" name="submit" value="Выйти" /></form>
+        </p>'); 
+print('<p>Сессия:<br><b>'.$c_user['name'].'</b><br><font color="red">'.$c_user['role_ps'].'</font><br>Интерфейс <i>'.$curr_interface.'</i></p>');
+?>
+</p>
+</font>
+</td>
+</tr>
+</table>
+</body>
+</html>

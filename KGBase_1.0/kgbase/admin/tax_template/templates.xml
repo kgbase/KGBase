@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <ttrees>
+    <folder>ttree/</folder>
+    <description>Шаблоны таксономических деревьев</description>
+    <ttree>
+      <file>animalia-ru.xml</file>
+      <ID>01</ID>
+      <description>Дерево таксономических рангов животных (русские названия Animal RU)</description>
+    </ttree>
+    <ttree>
+      <file>plantae-simple-ru.xml</file>
+      <ID>02</ID>
+      <description>Дерево таксономических рангов растений (упрощенное, русские названия Plant RU simple)</description>
+    </ttree>
+  </ttrees>
+  <styles>
+    <folder>styles/</folder>
+    <description>Стили отображения таксонов</description>
+    <style>
+      <file>style.xml</file>
+      <ID>01</ID>
+      <description>Основной стиль</description>
+    </style>
+  </styles>
+</templates>

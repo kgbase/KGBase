@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<collection>
+  <series>
+    <series>001-01</series>
+    <location>001</location>
+    <cmode>collection mode</cmode>
+    <habitat>forest</habitat>
+    <datetime_start>2013:06:27 17:00:00</datetime_start>
+    <datetime_end>2013:06:27 20:00:00</datetime_end>
+    <collector>Smith J.</collector>
+    <specimen>
+      <specimen>001-01 01</specimen>
+      <taxon>Aus beus</taxon>
+      <nall>1</nall>
+      <nfemale>1</nfemale>
+      <collection>Smith's collection</collection>
+      <determ>
+        <determ>001-01 01 01</determ>
+        <taxon>Aus beus Linnaeus, 1758</taxon>
+        <datetime>2014</datetime>
+        <determinator>Smith J.</determinator>
+      </determ>
+    </specimen>
+  </series>
+  <series>
+    <series>002-01</series>
+    <location>002</location>
+    <cmode>collection mode</cmode>
+    <habitat>water</habitat>
+    <datetime_start>2013:06:27 17:00:00</datetime_start>
+    <datetime_end>2013:06:27 20:00:00</datetime_end>
+    <collector>Smith J.</collector>
+    <specimen>
+      <specimen>002-01 01</specimen>
+      <taxon>Ceus deus</taxon>
+      <nall>1</nall>
+      <nfemale>1</nfemale>
+      <collection>Smith's collection</collection>
+      <determ>
+        <determ>002-01 01 01</determ>
+        <taxon>Ceus deus Linnaeus, 1758</taxon>
+        <datetime>2014</datetime>
+        <determinator>Smith J.</determinator>
+      </determ>
+    </specimen>
+  </series>
+</collection>

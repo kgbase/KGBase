@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+    <title><?php print($page_title);?></title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<body>
+<body bgcolor="#E4E2C3">
+<table width="100%" align="center" border="2" cellpadding="20" bgcolor="#E2FBC6">
+<tr>
+<td width="73%">
+<font color="#30421F" size="4" font="arial">
+<?php
+if(isset($c_user['role']) && ($c_user['role']=='admin' || $c_user['role']=='editor' || $c_user['role']=='user') && $main_page){
+print('<p align="justify">Здравствуйте, Пользователь <b>'.$c_user['name'].'</b>!</p>
+<p align="justify">Вы можете:<br>
+- Смотреть и сохранять статистику объектов и таксономические отчеты.</p>
+<p align="justify">Редактирование базы доступно Редактору, остальные функции - Администратору.</p>');
+}else{}
+$curr_interface='(пользователя) гостя';
+?>

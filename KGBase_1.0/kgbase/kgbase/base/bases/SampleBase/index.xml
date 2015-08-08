@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <title>Sample base</title>
+  <description>Desctiption of sample base</description>
+  <collection>SB_collection.xml</collection>
+  <geodata>SB_geodata.xml</geodata>
+  <hierarhy>SB_hierarchy.xml</hierarhy>
+  <taxonomy>SB_taxonomy.xml</taxonomy>
+</base>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml><GroundOverlay><name>blank.jpg</name><color>88ffffff</color><Icon>
+<href>blank.jpg</href>
+<viewBoundScale>0.75</viewBoundScale></Icon><LatLonBox>
+<north>53.9819351620917</north>
+<south>36.4919734705937</south>
+<east>62.578125</east>
+<west>33.57421875</west>
+</LatLonBox></GroundOverlay></kml>

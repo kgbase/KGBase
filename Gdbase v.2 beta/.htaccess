@@ -1,0 +1,6 @@
+<Files conf>
+ deny from all
+ </Files>
+<Files xfile>
+ deny from all
+ </Files>

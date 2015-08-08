@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<hierarhy>
+  <order>
+    <level_0>area</level_0>
+    <level_1>subarea</level_1>
+  </order>
+  <area>
+    <name>area</name>
+    <subarea>
+      <name>subarea 1</name>
+    </subarea>
+    <subarea>
+      <name>subarea 2</name>
+    </subarea>
+  </area>
+</hierarhy>

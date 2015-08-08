@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml><GroundOverlay><name>LVOSM8.jpg</name><color>88ffffff</color><Icon>
+<href>LVOSM8.jpg</href>
+<viewBoundScale>0.75</viewBoundScale></Icon><LatLonBox>
+<north>51.37863823622</north>
+<south>44.6608390426562</south>
+<east>49.2626953125</east>
+<west>40.989990234375</west>
+</LatLonBox></GroundOverlay></kml>

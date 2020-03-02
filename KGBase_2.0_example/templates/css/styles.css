@@ -1,0 +1,224 @@
+/*main menu on the top of page - always visible*/
+header {
+ position: sticky;
+ top: 0;
+ text-align: center;
+  z-index: 5;
+}
+/*autocomplete of the forms*/
+.ui-autocomplete {
+ max-height: 300px;
+ overflow-y: auto;
+ /* prevent horizontal scrollbar */
+ overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+ height: 300px;
+}
+/*taxon name as a header of page*/
+.tax_as_header{
+  padding: 10px;
+}
+.text_as_header{
+  padding: 10px;
+  text-decoration-style: bold;
+}
+/*data of original description of the taxon*/
+.taxon_orig{
+  padding-left: 10px;
+}
+/*data of synonyms of the taxon*/
+.synonym{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: justify;
+}
+/*additional data for the taxon - ecology, distribution et al.*/
+.add_data{
+  padding: 5px;
+  text-align: justify;
+}
+/*literature references*/
+#taxon_ref{
+  padding: 10px;
+}
+/*specimens in collections*/
+#taxon_coll{
+  padding: 10px;
+}
+/*observations*/
+#taxon_obs{
+  padding: 10px;
+}
+/*complete literaегку reference*/
+.lit_src{
+  display: none;
+}
+/*button for toggling (show/hide) literature reference*/
+.showsrc{
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #cccccc;
+  transition: all .218s ease 0s;
+  font-size: smaller;
+}
+/*button (web link)*/
+.link_button{
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #b6cc96;
+  transition: all .218s ease 0s;
+  font-size: smaller;
+}
+/*links to kml file and map page*/
+.geodata{
+  /*border: 2px solid rgb(42, 86, 29);
+  border-radius: 5px;
+  background: #d2e5cc;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*legend of the map*/
+.map_legend{
+  border: 1px solid rgb(42, 86, 29);
+  border-radius: 2px;
+  background: #d2e5cc;
+  padding: 5px;
+}
+/*designation of literature references on the map (green circle)*/
+.coll_des{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  background: #ff0000;
+}
+/*designation of specimens on the map (red circle)*/
+.ref_des{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  background: #00ff00;
+}
+/*designation of observations on the map (blue circle)*/
+.obs_des{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  background: #0000ff;
+}
+/*table with search forms*/
+.search_forms{
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid rgb(42, 86, 29);
+  background: #d2e5cc;
+}
+/*cell of table with search forms*/
+.search_forms td{
+  border-collapse: collapse;
+  width: 50%;
+  border: 2px solid rgb(42, 86, 29);
+  background: #d2e5cc;
+  padding: 10px;
+}
+/*button for toggling (show/hide) short data of the taxon*/
+.shdata_toggle{
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #cccccc;
+  transition: all .218s ease 0s;
+  font-size: smaller;
+}
+/*short data of the taxon*/
+.taxon_short_data{
+  display: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #f0f9e8;
+}
+/*number of taxons of each rank in the result of search query or "database"*/
+.counter{
+  padding: 10px;
+}
+/*search form*/
+.sform{
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #f0f9e8
+}
+/*text as a header of page*/
+.text_header{
+  padding: 10px;
+}
+/*result of msome search*/
+.search_result{
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #f0f9e8;
+}
+/**/
+#dataonly{
+  display: none;
+}
+/**/
+#taxaonly{
+  display: none;
+}
+/*container for the images*/
+.img_container{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  grid-template-rows: repeat(1, 150px);
+}
+.img_container > div > a> img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.wtext{
+  padding: 5px;
+  text-align: justify;
+}
+/*text area for uploads*/
+#textupload{
+  width: 99%; /* Ширина в процентах */
+  height: 400px; /* Высота в пикселах */
+}
+.page_menu{
+  border: 3px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #edf7ee;
+  font-size: x-large;
+  text-decoration-style: bold;
+}
+.db_title{
+  border: 1px solid rgb(42, 86, 29);
+  border-radius: 2px;
+  background: #edf7ee;
+  font-size: small;
+  text-decoration-style: bold;
+}
+.db_title_container{
+  padding: 5px;
+}
+}
+.l_container{
+  padding: 10px;
+}
+.tdesc {
+  border-collapse: collapse;
+}
+.tdesc > tbody >.sect_row{
+  border: 2px solid black;
+  text-align: center;
+  font-variant: small-caps;
+}
+.tdesc, th, td {
+  border: 1px solid black;
+}

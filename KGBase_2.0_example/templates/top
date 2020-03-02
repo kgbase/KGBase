@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <title><?php print($page_title);?></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="shortcut icon" href="templates/favicon.png" />
+  <link rel="stylesheet" href="templates/css/styles.css">
+  <link rel="stylesheet" href="templates/js/ui/jquery-ui.min.css">
+  <script type="text/javascript" src="templates/js/jquery-3.2.1.min.js"></script>
+  <script src="templates/js/ui/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="templates/js/smartmenu/jquery.smartmenus.js"></script>
+  <link href="templates/js/smartmenu/css/sm-core-css.css" rel="stylesheet" type="text/css" />
+  <link href="templates/js/smartmenu/css/sm-kgbase/sm-kgbase.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="templates/js/actions.js"></script>
+  <link href="templates/leaflet/leaflet.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="templates/leaflet/leaflet.js"></script>
+  <script type="text/javascript" src="templates/leaflet/esri-leaflet.js"></script>
+ </head>
+   <body bgcolor="#E4E2C3">
+    <table width="100%" align="center" border="2" cellpadding="20" bgcolor="#E2FBC6">
+     <tr>
+      <td width="95%">
+       <font color="#30421F" size="4" font="arial">
+       <header>
+       <!--<ul id="main-menu" class="sm sm-blue">
+        <li><a href="index.php">Базы данных</a>
+        <ul>
+        <?php
+        foreach($bases as $base_n=>$base_d){
+         if($base_n!=='all'){
+          print('<li><a href="index.php?mode=inc&sect='.$base_n.'">'.$base_d['title'].'</a></li>'."\r\n");
+         }else{}
+        }
+        ?>
+        </ul>
+        </li>
+        <li><a>Поиск данных</a>
+        <ul>
+        <?php
+        foreach($bases as $base_n=>$base_d){
+         if($base_n!=='all'){
+          print('<li><a href="index.php?mode=inc&sect='.$base_n.'&search=yes">'.$base_d['title'].'</a></li>'."\r\n");
+         }else{}
+        }
+        ?>
+        <li><a href="index.php?mode=inc&sect=all&search=yes">Поиск таксона</a></li>
+        </ul>
+        </li>
+        <li><a>Дополнительно</a>
+        <ul>
+        <li><a href="index.php?mode=inc&map=blank&sect=all">Создать карту</a></li>
+        <li><a href="index.php?mode=inc&baselocation=all">Посмотреть данные мест сбора, наблюдений и указаний</a></li>
+        <li><a href="index.php?mode=inc&litsrc=all">Посмотреть литературные источники</a></li>
+        </ul>
+        </li>
+       </ul>-->
+       </header>
+       <div class="db_title_container"><span class="db_title">Ants (Insecta, Hymenoptera, Formicidae) of the Lower Volga Region (Russia)</span></div>
+       <div><span class="page_menu"><a href="index.php">About the database</a> | <a href="index.php?mode=inc&sect=Formicidae%20of%20LV">List of species</a> | 
+       <a href="index.php?mode=inc&sect=Formicidae%20of%20LV&search=yes">Search in the database</a> | <a href="index.php?mode=inc&litsrc=all">Literature</a>
+        | <a href="http://kgbase.ru"><b>Back to KGBase.ru</b></a></span></div>

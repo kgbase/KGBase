@@ -1,0 +1,929 @@
+<div class="wtext"><a name="get_data"><strong>Database source data.</strong></a></div>
+<div class="wtext">The source data of the database (as well as all materials on this site, source data is provided under the Attribution-ShareAlike 4.0 International <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">(CC BY-SA 4.0)</a> license ) can be obtained as follows:</div>
+<div class="wtext"><a href="<?php print($base);?>" target="_blank">Database (SQLite file)</a>. For a description of the structure of tables and their fields in the database, <a href="#src_db">see below</a>.</div>
+<div class="wtext"><a href="<?php print($ibase);?>" target="_blank">Images database (SQLite)</a>.</div>
+<div class="wtext"><a href="geojson.php?taxon=all&geometry=exact" target="_blank">GeoJSON file</a> (exact geometry of the locations). For a description of the structure of this file, <a href="#geojson">see below</a>.</div>
+<div class="wtext"><a href="geojson.php?taxon=all&geometry=centroid" target="_blank">GeoJSON file</a> (geometry of the locations is approximated to the points).</div>
+<div class="wtext">&nbsp;</div>
+<div class="wtext"><a name="about_db"><strong>About this database.</strong></a></div>
+<div class="wtext"><strong>About the Lower Volga region.</strong></div>
+<div class="wtext">The Lower Volga Region is a region in the extreme south-east of European Russia, which includes the Republic of Kalmykia, Volgograd and Astrakhan Regions. Most of the territory of the Lower Volga Region is covered by steppes (Volgograd Oblast and the north of Astrakhan Oblast and Kalmykia) and deserts (southern part of the region). The region is crossed by the valleys of two major rivers, the Volga and the Don, and their inflows. These valleys have a lot of wetland and forest habitats. The relief of the Lower Volga Basin is flat, to the west of the Volga and Caspian Depression is rough, often with a large number of ravines, gorges, etc., often with ravine forests. The Caspian Depression covers almost the entire southern half of the Lower Volga Basin, its landscapes are deserts or dry steppes with a lot of salt marshes.</div>
+<div class="wtext">&nbsp;</div>
+<div class="wtext"><strong>History of studying ants in the Lower Volga region</strong></div>
+<div class="wtext">Researches on fauna of ants of the Lower Volga region have been started in XIX century and in the beginning of XX century have been summarized by Mikhail Dmitrievich Ruzsky in the book "Ants of Russia" (1905, 1905). A total of 48 species of ants in their modern concepts were mentioned by them for the Lower Volga region. Much of these references were based on material collected by him personally. Unfortunately, most of the Ruzsky's collection kept at Kazan University (where Ruzsky worked then) was probably lost afterwards. For this reason, many of his references cannot now be correctly interpreted.</div>
+<div class="wtext">Throughout the XX century, after the publication of Ruzsky's work, data on ants of the Lower Volga region were almost not updated. Only descriptions of some new species were published (Emery, 1925; Arnoldi, 1928, 1970). New fauna researches were started by me in Volgograd and Astrakhan&rsquo; regions and by Zh.V. Savranskaya in Kalmykia after 1995. Their result was an article published in 2002 (Grebennikov et al., 2002) in which 77 species of ants were listed for the Lower Volga region. Currently, the concept of many of the species listed in this article has changed significantly and some references need to be corrected. Unfortunately, the material on which the article was based has been left only in part, which sometimes makes it difficult to understand the current status of the references.</div>
+<div class="wtext">After a considerable break, I have been resuming my study of the Lower Volga Region myrmecofauna since 2007. These studies allowed me to clarify the distribution of many species in the region and enrich the list of known species. Some of the results of these studies were published by me earlier (Grebennikov, 2013, 2014; Grebennikov, Anikin, 2016; Grebennikov, Zryanin, 2017; Grebennikov, 2019).</div>
+<div class="wtext">The locations for which references of the ants are known, or specimens collected in them, are shown on the map:</div>
+<div class="wtext"><a href="templates/lvr-map_800.png" target="_blank"><img src="templates/lvr-map_400.png" title="Records of the ants in the Lower Volga Rerion"></a></div>
+<div class="wtext">&nbsp;</div>
+<div class="wtext"><strong>Materials and methods</strong></div>
+<div class="wtext">This catalogue is based mainly on literature references and my own collection of ants in the Lower Volga region (as well as material kindly provided by my colleagues). The collection and study of the material was made by all generally accepted and applicable research methods for this group.</div>
+<div class="wtext">&nbsp;</div>
+<div class="wtext"><strong>About this catalogue</strong></div>
+<div class="wtext">No doubt, the catalogue represents only the preliminary list of ants of the Lower Volga region with the description of known references and findings, and some critical notes.</div>
+<div class="wtext">Some areas of the region remain poorly studied. First of all, it is the north and west of Volgograd region, where many species are possible to find, which are not yet known in the Lower Volga region. The fauna of some groups (primarily <em>Leptothorax</em> and <em>Myrmica</em> genera) also remains poorly studied. The status and concepts of many taxa are not yet quite clear, as explained in the comments.</div>
+<div class="wtext">In preparing this catalogue, the concept of &ldquo;cryptic species&rdquo; separated by methods of &ldquo;integrative taxonomy&rdquo; was considered as insufficiently verified and not yet confirmed by field observations proving the biological isolation of such species. For this reason, many species are considered here in the wide &ldquo;classical&rdquo; interpretation. In each case, the necessary explanations are provided.</div>
+<div class="wtext">&nbsp;</div>
+<div class="wtext"><strong>Acknowledgements</strong></div>
+<div class="wtext">A lot of people have been helping me work on this project for many years. I consider it an onerous task to acknowledge their important contribution to this catalogue and to say thank them very much.</div>
+<div class="wtext">At the initial stage, E.V. Komarov (Volgograd), who introduced me to the world of entomology in my youth, was a great help in organizing this work. Some other colleagues from Volgograd (O.G. Brekhov and A.A. Sergeev) kindly provided their small collections of ants for study. Separately, I would like to thank the deceased D.M. Astakhov (also from Volgograd) who provided very interesting material included in this catalogue. From O.I. Broznov (Astrakhan&rsquo;) I received small but also very interesting material from the Astrakhan&rsquo; region, and help in a short but very productive field trip.</div>
+<div class="wtext">The opportunity to consult and discuss work with colleagues, in particular, D.A. Dubovikov (St. Petersburg) and Z.M. Yusupov (Nal&rsquo;chik), was of great importance to me.</div>
+<div class="wtext">Without a large number of people, my field trips and expeditions in the Lower Volga region would not have been possible. First of all, I would like to thank all employees of Bogdinsko-Baskunchaksky Nature Reserve who helped me during three years of work in this organization. In addition, I was also assisted in my work on the territory of the Astrakhansky Nature Reserve by the Reserve's researchers. I am sincerely grateful to M.V. Mokrousov (Nizhny Novgorod) for organizing the most interesting expeditions, in which I took part in the last few years, and for productive discussions on a wide range of scientific topics.</div>
+<div class="wtext">&nbsp;</div>
+<div class="wtext"><strong>Literature mentioned above</strong></div>
+<div class="wtext">Arnol'di, K. V. (1928) Studien &uuml;ber die Systematik der Ameisen. III. <em>Rossomyrmex</em>. Neue Gattung der Ameisen und ihre Beziehungen zu den anderen Gattungen der Formicidae. <em>Zoologischer Anzeiger, 75</em>, 299-310.</div>
+<div class="wtext">Arnol'di, K. V. (1970) New species and races of the ant genus <em>Messor</em> (Hymenoptera, Formicidae) [Novye vidy i rasy murav'ev roda <em>Messor</em> (Hymenoptera, Formicidae)]. <em>Zoological Journal [Zoologicheskii Zhurnal], 49</em>, 72-88.</div>
+<div class="wtext">Emery, C. (1889) Intorno ad alcune formiche della fauna paleartica. <em>Annali del Museo Civico di Storia Naturale, 27</em>, 439-443.</div>
+<div class="wtext">Emery, C. (1898) Beitr&auml;ge zur Kenntniss der palaearktischen Ameisen. <em>&Ouml;fversigt af Finska Vetenskaps-Societetens F&ouml;rhandlingar, 20</em>, 124-151.</div>
+<div class="wtext">Emery, C. (1925) Revision des esp&egrave;ces pal&eacute;arctiques du genre <em>Tapinoma</em>. <em>Revue Suisse de Zoologie, 32</em>, 45-64.</div>
+<div class="wtext">Grebennikov, K. A. &amp; Zryanin, V. A. (2017) Interesting records of the ants (Hymenoptera: Formicidae) from Volga region and Dagestan [Interesnye nahodki murav'ev (Hymenoptera: Formicidae) iz Povolzh'ya i Dagestana]. <em>Proceedings of the Russian Entomological Society [Trudy Russkogo Entomologicheskago Obshchestva], 88</em>, 38&ndash;43.</div>
+<div class="wtext">Grebennikov, K. A. (2015) <em>New records of ants (Hymenoptera, Formicidae) in the Lower Volga region [Novye nahodki murav'ev (Hymenoptera, Formicidae) v Nizhnem Povolzh'e]</em>. <em>SCI-ARTICLE.RU</em>. Available from: http://sci-article.ru/stat.php?i=1421406586 (11.02.2020).</div>
+<div class="wtext">Grebennikov, K. A. (2019) First records of <em>Cardiocondyla sahlbergi</em> Forel, 1913 (Insecta, Hymenoptera, Formicidae) in the Volga Region [Pervye nahodki <em>Cardiocondyla Sahlbergi</em> Forel, 1913 (Insecta, Hymenoptera, Formicidae) v Povolzh'e]. <em>Entomological and parasitological studies in the Volga region [Jentomologicheskie i parazitologicheskie issledovanija v Povolzh'e]</em>, 46-48.</div>
+<div class="wtext">Grebennikov, K. A., Dubovikov, D. A. &amp; Savranskaya, Zh. V. (2002) Ecological-faunistic characteristics of ants (Hymenoptera, Formicidae) of the Lower Volga region [Fauna i ekologicheskie osobennosti murav'ev (Hymenoptera, Formicidae) Nizhnego Povolzh'ya]. <em>In:</em> <em>Biodiversity of Insects of the Southeast of the European Part of Russia [Bioraznoobrazie nasekomykh Yugo-Vostoka Evropeiskoi chasti Rossii]</em>. Region. Tsentr po izucheniyu i sokhraneniyu bioraznoobraziya; Volgogradskoe otd. Rus. entomol. obshch., Volgograd, pp. 178&ndash;195.</div>
+<div class="wtext">Ruzsky, M. D. (1903) Essay on the myrmecofauna of the Kirghiz steppe [Ocherk mirmekologicheskoy fauny Kirgizskoy stepi]. <em>Proceedings of the Russian Entomological Society [Trudy Russkago Entomologicheskago Obshchestva], 36</em>, 294-316.</div>
+<div class="wtext">Ruzsky, M. D. (1905) The ants of Russia. (Formicariae Imperii Rossici). Systematics, geography and data on the biology of Russian ants. Part I. [Murav'i Rossii (Formicariae Imperii Rossici). Sistematika, geografija i dannye po biologii russkikh murav'ev. Chast' 1]. <em>Trudy Obshchestva Estestvoispytatelei pri Imperatorskom Kazanskom Universitete, 38</em>, 1-800.</div>
+<div class="wtext">Ruzsky, M. D. (1907) The ants of Russia. (Formicariae Imperii Rossici). Systematics, geography and data on the biology of Russian ants. Part II [Murav'i Rossii (Formicariae Imperii Rossici). Sistematika, geografija i dannye po biologii russkikh murav'ev. Chast' 2]. <em>Trudy Obshchestva Estestvoispytatelei pri Imperatorskom Kazanskom Universitete, 40</em>, 1-122.</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div class="wtext"><a name="about_data"><strong>Description of the data</strong></a></div>
+<div class="wtext"><a name="src_db"><strong>Source database</strong></a></div>
+<div class="wtext">The relational database directly used here for displaying data is a SQLite file format.</div>
+<div class="wtext">The database tables and their fields are described below as a table:</div>
+
+<table class="tdesc">
+  <thead>
+    <tr>
+      <th>Table</th>
+      <th>Field</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Key</th>
+      <th>Foreing key</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="sect_row">
+      <td>collections</td>
+      <td></td>
+      <td></td>
+      <td>Data of collections in which the specimens are stored</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`collection`</td>
+      <td>TEXT</td>
+      <td>collection identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`description`</td>
+      <td>TEXT</td>
+      <td>description of the collection (eg "Private collection of John Smith","Collection of the University of Somecity ")</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>owner</td>
+      <td>TEXT</td>
+      <td>owner of the collection (private person or organization)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>curator</td>
+      <td>TEXT</td>
+      <td>curator of the collection</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`contact`</td>
+      <td>TEXT</td>
+      <td>contact information for communication with the owner or curator of the collection</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>location</td>
+      <td></td>
+      <td></td>
+      <td>Location data (formal place of collection, observations or literature references) - general description</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`location`</td>
+      <td>TEXT</td>
+      <td>locality identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`description`</td>
+      <td>TEXT</td>
+      <td>description of the location (eg "top of Mount Big Mount", "3 km north of Nowhere town")</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`hierarhy`</td>
+      <td>TEXT</td>
+      <td>place of the location in the geographical hierarchy (administrative or physical: from large allotments to small ones, separated by a comma with a space).</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`source`</td>
+      <td>TEXT</td>
+      <td>the method or source by which the geographical coordinates of the location are determined (map, GPS or some others), and potential deviation of coordinates from actual (optional)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`author`</td>
+      <td>TEXT</td>
+      <td>the author who set the geographical coordinates of the location</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>placemark</td>
+      <td></td>
+      <td></td>
+      <td>Geographical coordinates of parts of the location (or their boundaries)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`location`</td>
+      <td>TEXT</td>
+      <td>locality identifier</td>
+      <td>foreign key</td>
+      <td>location.location</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`placemark`</td>
+      <td>TEXT</td>
+      <td>placemark identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`type`</td>
+      <td>TEXT</td>
+      <td>type of location (point, polyline or polygon: Piont, LineString, Polygon)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>coordinates</td>
+      <td>TEXT</td>
+      <td>coordinates of the location (WGS-84: degrees and meters: longitude,latitude,height ... ... - like in Keyhole Markup Language standard).</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>series</td>
+      <td></td>
+      <td></td>
+      <td>Data of series (all of specimens collected in one location by one collector at one time by one the same method (s))</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`series`</td>
+      <td>TEXT</td>
+      <td>serie identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`location`</td>
+      <td>TEXT</td>
+      <td>locality identifier</td>
+      <td>foreign key</td>
+      <td>location.location</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`cmode`</td>
+      <td>TEXT</td>
+      <td>description of method(s) of collecting the serie</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`habitat`</td>
+      <td>TEXT</td>
+      <td>description of habitat where the serie was collected</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`datetime_start`</td>
+      <td>TEXT</td>
+      <td>the start time of the collection of the serie (in the format YYYY:MM:DD hh:mm:ss, with possible reduction to known data up to a year)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`datetime_end`</td>
+      <td>TEXT</td>
+      <td>the end time of the collection of the serie (in the format YYYY:MM:DD hh:mm:ss, with possible reduction to known data up to a year)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>collector</td>
+      <td>TEXT</td>
+      <td>name of the collector</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>specimen</td>
+      <td></td>
+      <td></td>
+      <td>Collection specimen data (storage units in the collection)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`specimen`</td>
+      <td>TEXT</td>
+      <td>specimen identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`series`</td>
+      <td>TEXT</td>
+      <td>series identifier</td>
+      <td>foreign key</td>
+      <td>series.series</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`taxon`</td>
+      <td>TEXT</td>
+      <td>taxon name</td>
+      <td>the foreign key</td>
+      <td>taxon.name</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`parts`</td>
+      <td>INTEGER</td>
+      <td>The number of parts (individuals) of which the collection specimen consists</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`collection`</td>
+      <td>TEXT</td>
+      <td>collection identifier</td>
+      <td>foreign key</td>
+      <td>collections.collection</td>
+    </tr>
+    <tr class="sect_row">
+      <td>specpart</td>
+      <td></td>
+      <td></td>
+      <td>Data of the composition of specimen</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`specimen`</td>
+      <td>TEXT</td>
+      <td>specimen identifier</td>
+      <td>foreign key</td>
+      <td>specimen.specimen</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`part`</td>
+      <td>TEXT</td>
+      <td>name (designation) of part of the specimen (male, female, etc.)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`number`</td>
+      <td>INTEGER</td>
+      <td>number of parts of the specimen</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>determ</td>
+      <td></td>
+      <td></td>
+      <td>Specimen determinations data</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`determ`</td>
+      <td>TEXT</td>
+      <td>identifier of determination</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`specimen`</td>
+      <td>TEXT</td>
+      <td>specimen identifier</td>
+      <td>foreign key</td>
+      <td>specimen.specimen</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`taxon`</td>
+      <td>TEXT</td>
+      <td>the name of the taxon (original spelling in the label)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`datetime`</td>
+      <td>TEXT</td>
+      <td>date and time of determination (in the format YYYY:MM:DD hh:mm:ss, with possible reduction to known data up to a year)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`determinator`</td>
+      <td>TEXT</td>
+      <td>author of the determination</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>sections</td>
+      <td></td>
+      <td></td>
+      <td>Database sections information*</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`section`</td>
+      <td>TEXT</td>
+      <td>database section</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`title`</td>
+      <td>TEXT</td>
+      <td>arbitrary title of the section description</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`description`</td>
+      <td>TEXT</td>
+      <td>any description of the section</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>section</td>
+      <td></td>
+      <td></td>
+      <td>Taxa included in sections of the database</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`section`</td>
+      <td>TEXT</td>
+      <td>database section</td>
+      <td>foreign key</td>
+      <td>sections.section</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`name`</td>
+      <td>TEXT</td>
+      <td>taxon name</td>
+      <td>foreign key</td>
+      <td>taxon.name</td>
+    </tr>
+    <tr class="sect_row">
+      <td>taxon</td>
+      <td></td>
+      <td></td>
+      <td>Taxon data (as a formal unit of taxonomy)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`prank`</td>
+      <td>TEXT</td>
+      <td>rank of a parent taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`parent`</td>
+      <td>TEXT</td>
+      <td>the name of the parent taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`ssyn`</td>
+      <td>TEXT</td>
+      <td>the senior synonym of a taxon (if the taxon is junior synonym of some other taxon, in this case fields `prank` and `parent` must be empty)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`rank`</td>
+      <td>TEXT</td>
+      <td>rank of taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`status`</td>
+      <td>TEXT</td>
+      <td>the status of a taxon (valid, invalid, doubtful, synonym etc.)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`name`</td>
+      <td>TEXT</td>
+      <td>the name of the taxon</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`abbr`</td>
+      <td>TEXT</td>
+      <td>abbreviated authorship of the taxon ("(L.)", "Linnaeus", "(Linnaeus, 1765)")</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`orig`</td>
+      <td>TEXT</td>
+      <td>the original name of the taxon (according to the first description)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`auct`</td>
+      <td>TEXT</td>
+      <td>the author of the taxon (full spelling without year)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`year`</td>
+      <td>TEXT</td>
+      <td>year of the description of the taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`ref`</td>
+      <td>TEXT</td>
+      <td>bibliographic reference</td>
+      <td>foreign key</td>
+      <td>literature.ref</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`page`</td>
+      <td>TEXT</td>
+      <td>page for the source with the first description of a taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>tdata</td>
+      <td></td>
+      <td></td>
+      <td>Data of the taxon (as a biological species)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`name`</td>
+      <td>TEXT</td>
+      <td>taxon name</td>
+      <td>foreign key</td>
+      <td>taxon.name</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`general`</td>
+      <td>TEXT</td>
+      <td>general description of the taxon with any notes on taxonomy etc.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`mdescript`</td>
+      <td>TEXT</td>
+      <td>morphological description</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`biology`</td>
+      <td>TEXT</td>
+      <td>a description of the features of biology</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`ecology`</td>
+      <td>TEXT</td>
+      <td>description of ecological features</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`distribution`</td>
+      <td>TEXT</td>
+      <td>description of the distribution of a taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`frequency`</td>
+      <td>TEXT</td>
+      <td>frequency of occurrence of a taxon</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>literature</td>
+      <td></td>
+      <td></td>
+      <td>Data of literature sources</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`ref`</td>
+      <td>TEXT</td>
+      <td>short bibliographic reference (eg, Smith J., 2001)</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`text`</td>
+      <td>TEXT</td>
+      <td>complete bibliographic reference</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`file`</td>
+      <td>TEXT</td>
+      <td>the link to the file with the full text of the work or some webpage etc. (if exists)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>reference</td>
+      <td></td>
+      <td></td>
+      <td>Data of literature references to the records of taxa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`reference`</td>
+      <td>TEXT</td>
+      <td>reference identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`ref`</td>
+      <td>TEXT</td>
+      <td>bibliographic reference</td>
+      <td>foreign key</td>
+      <td>literature.ref</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`location`</td>
+      <td>TEXT</td>
+      <td>location identifier</td>
+      <td>foreign key</td>
+      <td>location.location</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`name`</td>
+      <td>TEXT</td>
+      <td>taxon name</td>
+      <td>foreign key</td>
+      <td>taxon.name</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`citedas`</td>
+      <td>TEXT</td>
+      <td>the original name of the taxon in the source</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`text`</td>
+      <td>TEXT</td>
+      <td>original source text</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`page`</td>
+      <td>TEXT</td>
+      <td>source page with indication</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>obs</td>
+      <td></td>
+      <td></td>
+      <td>Data of observations of taxa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`obs`</td>
+      <td>TEXT</td>
+      <td>observation identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`location`</td>
+      <td>TEXT</td>
+      <td>location identifier</td>
+      <td>foreign key</td>
+      <td>location.location</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`datetime`</td>
+      <td>TEXT</td>
+      <td>date and time of observation (in the format YYYY:MM:DD hh:mm:ss)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>observer</td>
+      <td>TEXT</td>
+      <td>observer name</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`name`</td>
+      <td>TEXT</td>
+      <td>taxon name</td>
+      <td>foreign key</td>
+      <td>taxon.name</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`condition`</td>
+      <td>TEXT</td>
+      <td>description of the state of the object at the moment of observation</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class="sect_row">
+      <td>obsdet</td>
+      <td></td>
+      <td></td>
+      <td>Data of the determinations of the observed objects</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`obsdet`</td>
+      <td>TEXT</td>
+      <td>determination identifier</td>
+      <td>primary key, unique</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`obs`</td>
+      <td>TEXT</td>
+      <td>observation identifier</td>
+      <td>foreign key</td>
+      <td>obs.obs</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`name`</td>
+      <td>TEXT</td>
+      <td>taxon name</td>
+      <td>foreign key</td>
+      <td>taxon.name</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`deterninator`</td>
+      <td>TEXT</td>
+      <td>author of the determination</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>`datetime`</td>
+      <td>TEXT</td>
+      <td>date and time of determination (in the format YYYY:MM:DD hh:mm:ss)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="6">* the division of the database into "sections" (data sets for different taxonomic groups), implemented earlier, seems doubtful. In the future, most likely, this possibility will be excluded. For each dataset it will be necessary to create a separate database.</td>
+    </tr>
+  </tbody>
+</table>
+<div>&nbsp;</div>
+<div class="wtext"><a name="geojson"><strong>Spatial data</strong></a></div>
+<div class="wtext">In addition to the database directly used here, data can be obtained as a file in GeoJSON Format (https://geojson.org/). Each element of such a file is a set of basic data about record of a species and a spatial description of the location of the record.</div>
+<div class="wtext">For ease of use, geodata of records can be obtained in two different formats:</div>
+<ol>
+  <li>Original data, including exact lines and polygons describing the locations of the records.</li>
+  <li>Coordinates of the locations of records approximated to points.</li>
+</ol>
+<div class="wtext">Descriptions of properties of objects (records of species) are given below as a table (more detailed data can be found in the source database, which is described above):</div>
+<table  class="tdesc">
+  <thead>
+    <tr>
+      <th>field name</th>
+      <th>field desctiption</th>
+      <th>type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID</td>
+      <td>unique identifier of the record (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>record_type</td>
+      <td>record type (options: specimen (preserved specimen in collection), reference (in literature), observation) (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>taxon_name</td>
+      <td>scientific name of the taxon (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>taxon_rank</td>
+      <td>rank of the taxon (eg, species, subspecies etc.) (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>taxon_status</td>
+      <td>status of the taxon (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>location_ID</td>
+      <td>unique identifier of the location (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>name of the country (cannot be empty)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>region</td>
+      <td>name of the district (county etc.) (optional)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>district</td>
+      <td>name of the region (province etc.) (optional)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>collector</td>
+      <td>name of the collector (the field is empty in case of reference or observation)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>collection</td>
+      <td>identifier of collections in which the specimens are storedr (the field is empty in case of reference or observation)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>date of the collector (the field is empty in case of reference)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>observer</td>
+      <td>name of the observer (the field is empty in case of specimen or reference)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>source</td>
+      <td>short bibliographic reference (eg, Smith J., 2001) (the field is empty in case of specimen or observation)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>source_name</td>
+      <td>original name in literature (the field is empty in case of specimen or observation)</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>err_degrees</td>
+      <td>potential error of coordinates* in degrees</td>
+      <td>Number</td>
+    </tr>
+    <tr>
+      <td>err_meters</td>
+      <td>potential error of coordinates in meters</td>
+      <td>Number</td>
+    </tr>
+    <tr>
+      <td colspan="3">* Originally, in the database geometry of each location can be either a point, a line or a polygon, or a set of such figures. In the case of approximating the location coordinates to a point, its coordinates are accepted as the center of the square into which the location limits can be entered. A possible coordinate error is accepted, in this case, as half the side of such a square. If the location coordinates in the database are described by a single point, a possible coordinate error depends on the accuracy of their determination.</td>
+    </tr>
+  </tbody>
+</table>

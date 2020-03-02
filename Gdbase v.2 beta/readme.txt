@@ -3,3 +3,6 @@ You can geocode your digital images, indicate on images several objects and get 
 The system made by Konstantin A. Gebennikov in State reserve "Bogdinsko-Baskunchaksky", in 2014, when he was a vice-director for scientific work.
 The system is a free software, licensed under GNU General Public License Version 3. You may use the system or any components of the system in any purpose, as it indicate in the license. Original authority: "Konstantin A. Gebennikov & State reserve "Bogdinsko-Baskunchaksky" .
 E-mail for all questions: kgrebennikov@gmail.com.
+
+Update 2020-03-02:
+Due to the change of the developer's workplace, GDBase is no longer used and project development is stopped.
